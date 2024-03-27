@@ -1,6 +1,6 @@
 //This code belongs to "Aditya Waykos"
 import React from "react";
-import "./Style.css";
+import "./MenuItemStyles.css";
 
 const ViewItems = (props) => {
   // Destructuring props to access the item object
