@@ -23,7 +23,7 @@ const UserLogin = () => {
   const handleSubmit = (event) => {
     event.preventDefault(); // Preventing default form submission behavior
     // Checking if email and password match a predefined value
-    if (email === "aditya.waykos@npci.org.in" && userPassword === "Aditya@123") {
+    if (email === "aditya.waykos@gmail.com" && userPassword === "Jan@123") {
       navigate("/recipe-search"); // Redirecting to "/recipe-search" route upon successful login
     } else {
       alert("E-mail or Password does not match"); // Alerting user if email or password is incorrect
